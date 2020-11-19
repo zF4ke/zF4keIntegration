@@ -1,0 +1,8 @@
+.env
+node_modules/
+.vscode/
+settings.json
+dbzf4ke.json
+dbstatus.json
+zbot.bat
+run.bat
