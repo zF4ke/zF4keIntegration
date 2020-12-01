@@ -1,32 +1,25 @@
 {
-  "name": "discord-selfbot",
+  "name": "zf4ke-integration",
   "version": "1.0.0",
-  "description": "Discord.js selfbot",
+  "description": "zF4ke Integration for Summit",
   "main": "index.js",
+  "repository": "https://github.com/zF4ke/zF4keIntregation.git",
+  "author": "zF4ke <pedrohsilva955@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
   },
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "author": "zF4ke#8556",
-  "license": "ISC",
-  "homepage": "",
   "dependencies": {
-    "@neliharbuzava/caesar-cipher-encoder": "^1.0.1",
-    "chalk": "^3.0.0",
-    "common-tags": "^1.8.0",
-    "crypto": "^1.0.1",
-    "discord-anti-spam": "^2.4.1",
-    "discord.js": "^11.5.1",
+    "chalk": "^4.1.0",
+    "discord.js": "11.6.4",
     "dotenv": "^8.2.0",
-    "lowdb": "^1.0.0",
-    "nodemon": "^2.0.6",
+    "mongoose": "^5.10.15",
     "require-all": "^3.0.0",
-    "scalc": "^2.0.1",
-    "vigeneren": "^1.0.5",
-    "worker": "^0.4.0"
+    "scalc": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "nodemon": "^2.0.6"
   }
 }
